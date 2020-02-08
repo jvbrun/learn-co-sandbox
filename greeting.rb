@@ -12,3 +12,11 @@ end
     2.times do
       puts "Hey! You!"
     end 
+    
+  puts "How old are you? "
+    age = gets.to_i 
+    if age > 40 
+      puts "Waw! you are NOT young!"
+    else
+      puts "OK.  Not bad."
+    end 
